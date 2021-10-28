@@ -1,0 +1,38 @@
+nav {
+    position: static;
+    height: 4rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.NavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 0 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.navLogin {
+    padding: 0.5rem;
+    border: palegreen 2px solid;
+    border-radius: 0.5rem;
+}
+
+.navLogin:hover {
+    background-color: palegreen;
+    color: black;
+}
