@@ -1,0 +1,53 @@
+h4 {
+    text-align: center;
+}
+
+p {
+    padding: 0 1rem;
+    font-weight: 400;
+}
+
+.gridContainer {
+    display: grid;
+    padding: 10rem 1rem;
+    justify-content: center;
+    grid-template-columns: repeat(4, 20rem);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    color: black;
+  }
+  
+  .grid_card {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 30rem;
+    width: 18rem;
+    border-radius: 2rem;
+    z-index: 100;
+    backdrop-filter: blur(7px);
+  }
+  
+  @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .grid_card .grid_5 .grid_6 {
+      background-color: rgba(255, 255, 255, .8);
+    }
+  }
+  
+  .grid_5 {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 30rem;
+    width: 18rem;
+    border-radius: 2rem;
+    z-index: 100;
+    backdrop-filter: blur(7px);
+    grid-column: 2;
+  }
+  
+  .grid_6 {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 30rem;
+    width: 18rem;
+    border-radius: 2rem;
+    z-index: 100;
+    backdrop-filter: blur(7px);
+    grid-column: 3;
+  }

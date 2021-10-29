@@ -1,16 +1,21 @@
-import './App.css';
-import './components/NavBar';
-import NavBar from './components/NavBar';
+import "./App.css";
+import "./components/NavBar";
+import NavBar from "./components/NavBar";
 import Marquee from "react-fast-marquee";
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
+import GridCard from "./components/GridCard";
 
 function App() {
-
-  const olympiadList = ["Maths Olympiad", "English Olympiad","Grads Olympiad", "Finance Olympiad"];
+  const olympiadList = [
+    "Maths Olympiad",
+    "English Olympiad",
+    "Grads Olympiad",
+    "Finance Olympiad",
+  ];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const tick = () => setIndex(i => (i + 1) % olympiadList.length);
+    const tick = () => setIndex((i) => (i + 1) % olympiadList.length);
 
     const id = setInterval(tick, 1500);
     return () => clearInterval(id);
@@ -18,21 +23,70 @@ function App() {
 
   return (
     <div className="App">
-     <NavBar/>
-     <h1>Feeling Prepared?<br/>Register for <span className="shufflingText">{olympiadList[index]}</span></h1>
-     <Marquee>
-       <p>First thing now</p><br/>
-       <p>Second thing then</p><br/>
-       <p>Third thing next</p>
-     </Marquee>
-     <div className="gridContainer">
-       <div className="grid_card"></div>
-       <div className="grid_card"></div>
-       <div className="grid_card"></div>
-       <div className="grid_card"></div>
-       <div className="grid_5"></div>
-       <div className="grid_6"></div>
-     </div>
+      <NavBar />
+      <h1>
+        Feeling Prepared?
+        <br />
+        Register for{" "}
+        <span className="shufflingText">{olympiadList[index]}</span>
+      </h1>
+      <Marquee>
+        <p>First thing now</p>
+        <br />
+        <p>Second thing then</p>
+        <br />
+        <p>Third thing next</p>
+      </Marquee>
+      <GridCard />
+
+      <div className="flexInstitute">
+        <div id="text">
+          <h3>
+            Register as an <span id="spanColor">Institute</span>
+          </h3>
+          <p>
+            Want to give a headstart to the students of your institute by
+            providing them an exciting platform to test their knowledge and
+            skills. Then, get your Institute registered with us now!
+          </p>
+          <button>Register Now!</button>
+        </div>
+        <div id="image">
+          <p>Images go here</p>
+        </div>
+        <div id="image">
+          <p>Images go here again</p>
+        </div>
+      </div>
+
+      <div className="flexCoordinator">
+        <div>Image goes here</div>
+        <div id="text">
+          <h3>
+            Register as a <span id="spanColor">Coordinator</span>
+          </h3>
+          <p>
+            Grab the opportunity and get a chance to work in the education
+            sector with one of the renowned education service providers with the
+            option to work full time or part time. Work as a mediator between
+            education institutes and us and Earn a handsome amount of money by
+            working at your convenience. Top coordinators will be given to work
+            as full-time employees with good pay.
+          </p>
+        </div>
+      </div>
+
+      <section>
+        <h3>About Springfield Olympiads</h3>
+        <p>
+          We, at Springfield Olympiads, provide one of the best Olympiad
+          solutions for students and working professionals and students.
+          Springfield Olympiads is an Educational Organization popularizing
+          academic competition and assisting the development of competitive
+          spirit among learners.
+        </p>
+        <button>Know More!</button>
+      </section>
     </div>
   );
 }

@@ -1,12 +1,20 @@
 .App {
   min-height: 100vh;
   /* position: relative */
-  background-image: url("./assets/bigLandingPage2.jpg");  
+  background-image: url("./assets/bigLandingPage2copy.jpg");  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;;
   color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#spanColor {
+  color: palegreen;
 }
 
 /*
@@ -37,49 +45,27 @@ h1 {
   font-weight: 500;
   font-family: sans-serif;
   color: palegreen;
-
 }
 
-.gridContainer {
-  display: grid;
-  padding: 10rem 1rem;
-  justify-content: center;
-  grid-template-columns: repeat(4, 20rem);
-  row-gap: 2rem;
-  column-gap: 2rem;
+.flexInstitute, .flexCoordinator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3rem;
 }
 
-.grid_card {
+.flexInstitute p, .flexCoordinator p {
+  padding: 0;
+}
+
+#text {
+  width: 50%;
+}
+
+section {
   background-color: rgba(255, 255, 255, 0.5);
   height: 30rem;
-  width: 18rem;
-  border-radius: 2rem;
+  width: 100%;
   z-index: 100;
   backdrop-filter: blur(7px);
-}
-
-@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
-  .grid_card .grid_5 .grid_6 {
-    background-color: rgba(255, 255, 255, .8);
-  }
-}
-
-.grid_5 {
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 30rem;
-  width: 18rem;
-  border-radius: 2rem;
-  z-index: 100;
-  backdrop-filter: blur(7px);
-  grid-column: 2;
-}
-
-.grid_6 {
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 30rem;
-  width: 18rem;
-  border-radius: 2rem;
-  z-index: 100;
-  backdrop-filter: blur(7px);
-  grid-column: 3;
 }
