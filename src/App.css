@@ -83,14 +83,6 @@ header h1 {
   width: 50%;
 }
 
-section {
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 30rem;
-  width: 100%;
-  z-index: 100;
-  backdrop-filter: blur(7px);
-}
-
 #about {
   width: 60%;
   margin: auto;
@@ -103,4 +95,10 @@ section {
 
 #reviews {
   height: 7rem;
+}
+
+@supports not ((-webkit-backdrop-filter: blur(7px)) or (backdrop-filter: blur(7px))) {
+  #about {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
 }
