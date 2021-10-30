@@ -35,10 +35,31 @@ button:hover {
 }
 */
 
-h1 {
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header button {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 2rem;
+  background-color: rgb(66, 63, 63);
+  color: inherit;
+}
+
+header button:hover {
+  background-color: black;
+}
+
+header h1 {
+  margin: 10rem 0 10rem 0;
+  padding: 1rem 1rem;
   font-weight: 600;
   position: relative;
-  margin: 10rem 0 10rem 15rem;
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .shufflingText {

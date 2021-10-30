@@ -24,12 +24,17 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      
+      <header>
       <h1>
         Feeling Prepared?
         <br />
         Register for{" "}
         <span className="shufflingText">{olympiadList[index]}</span>
       </h1>
+      <button>Register</button>
+      <button>Schedule</button>
+      </header>
       <Marquee>
         <p>First thing now</p>
         <br />
