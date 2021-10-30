@@ -2,7 +2,7 @@ h4 {
     text-align: center;
 }
 
-p {
+.gridContainer p {
     padding: 0 1rem;
     font-weight: 400;
 }
