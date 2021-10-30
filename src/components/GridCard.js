@@ -35,7 +35,7 @@ const GridCard = () => {
           syllabus prescribed by CBSE/ICSE and the State Boards.
         </p>
       </div>
-      <div className="grid_5">
+      <div className="grid_card">
         <h4>Grads Olympiad</h4>
         <p>
           The Grads Olympiad is one of its kind Olympiad, primarily focusing on
@@ -43,7 +43,7 @@ const GridCard = () => {
           Olympiad.
         </p>
       </div>
-      <div className="grid_6">
+      <div className="grid_card">
         <h4>Finance Olympiad</h4>
         <p>
           The Finance Olympiad is a specially curated Olympiad, made with a
