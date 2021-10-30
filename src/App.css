@@ -90,3 +90,17 @@ section {
   z-index: 100;
   backdrop-filter: blur(7px);
 }
+
+#about {
+  width: 60%;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2rem;
+  color: black;
+  backdrop-filter: blur(7px);
+}
+
+#reviews {
+  height: 7rem;
+}

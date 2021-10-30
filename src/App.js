@@ -35,6 +35,7 @@ function App() {
       <button>Register</button>
       <button>Schedule</button>
       </header>
+
       <Marquee>
         <p>First thing now</p>
         <br />
@@ -81,7 +82,7 @@ function App() {
         </div>
       </div>
 
-      <section>
+      <section id="about">
         <h3>About Springfield Olympiads</h3>
         <p>
           We, at Springfield Olympiads, provide one of the best Olympiad
@@ -92,6 +93,15 @@ function App() {
         </p>
         <button>Know More!</button>
       </section>
+
+      <section id="reviews">
+        <h3>Reviews go here</h3>
+      </section>
+
+      <footer>
+        
+      </footer>
+
     </div>
   );
 }

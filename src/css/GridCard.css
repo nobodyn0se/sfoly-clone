@@ -26,25 +26,6 @@ h4 {
     backdrop-filter: blur(7px);
   }
   
-  .grid_5 {
-    background-color: rgba(255, 255, 255, 0.5);
-    height: 30rem;
-    width: 18rem;
-    border-radius: 2rem;
-    z-index: 100;
-    backdrop-filter: blur(7px);
-  }
-  
-  
-  .grid_6 {
-    background-color: rgba(255, 255, 255, 0.5);
-    height: 30rem;
-    width: 18rem;
-    border-radius: 2rem;
-    z-index: 100;
-    backdrop-filter: blur(7px);
-  }
-  
   @supports not ((-webkit-backdrop-filter: blur(7px)) or (backdrop-filter: blur(7px))) {
     .grid_card {
       background-color: rgba(255, 255, 255, .8);
