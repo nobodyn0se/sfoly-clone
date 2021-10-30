@@ -43,5 +43,10 @@ h4 {
     border-radius: 2rem;
     z-index: 100;
     backdrop-filter: blur(7px);
-    grid-column: 3;
+  }
+  
+  @supports not ((-webkit-backdrop-filter: blur(7px)) or (backdrop-filter: blur(7px))) {
+    .grid_card {
+      background-color: rgba(255, 255, 255, .8);
+    }
   }
