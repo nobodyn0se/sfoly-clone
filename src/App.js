@@ -36,13 +36,16 @@ function App() {
       <button>Schedule</button>
       </header>
 
+      <div className="marquee">
       <Marquee>
-        <p>First thing now</p>
+        <p>Registration For 2021-22 Is Closing. Register Now</p>
         <br />
-        <p>Second thing then</p>
+        <p>Springfield Olympiads Will Be Conducting Olympiads Online For the Year 2021-22</p>
         <br />
-        <p>Third thing next</p>
+        <p>Schedule Of Olympiads Has Been Declared</p>
       </Marquee>
+      </div>
+
       <GridCard />
 
       <div className="flexInstitute">
