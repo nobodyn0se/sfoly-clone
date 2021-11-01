@@ -1,0 +1,42 @@
+#reviews {
+    margin: auto;
+    padding: 0 2rem 3rem 2rem;
+    width: 80%;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7px);
+  }
+
+  .reviewsContainer {
+    display: grid;
+
+    grid-template-rows: repeat(2, 18rem);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-auto-flow: column;
+    overflow-x: auto;
+  }
+
+  .reviewsGrid {
+    display: grid;  
+    justify-content: center;
+    overflow-x: scroll;
+    grid-template-columns: repeat(2, 20rem);
+    grid-template-rows: repeat(2, 18rem);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    color: black;
+  }
+
+  #reviews_card {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 17rem;
+    width: 18rem;
+    padding: 0 1rem 1rem 1rem;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    z-index: 100;
+    backdrop-filter: blur(7px);
+    color: #000;
+  }

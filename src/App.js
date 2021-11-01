@@ -2,6 +2,7 @@ import "./App.css";
 import "./components/NavBar";
 import NavBar from "./components/NavBar";
 import Marquee from "react-fast-marquee";
+import Reviews from './components/Reviews';
 import { useState, useEffect } from "react";
 import GridCard from "./components/GridCard";
 
@@ -92,9 +93,7 @@ function App() {
         <button>Know More!</button>
       </section>
 
-      <section id="reviews">
-        <h3>Reviews go here</h3>
-      </section>
+      <Reviews/>
 
       <footer>
         
