@@ -63,16 +63,7 @@ function App() {
           </p>
           <button>Register Now!</button>
         </div>
-        <div id="image">
-          <p>Images go here</p>
-        </div>
-        <div id="image">
-          <p>Images go here again</p>
-        </div>
-      </div>
 
-      <div className="flexCoordinator">
-        <div>Image goes here</div>
         <div id="text">
           <h3>
             Register as a <span id="spanColor">Coordinator</span>
