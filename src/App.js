@@ -25,29 +25,29 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      
+
       <header>
-      <h1>
-        Feeling Prepared?
-        <br />
-        Register for{" "}
-        <span className="shufflingText">{olympiadList[index]}</span>
-      </h1>
-      <button>Register</button>
-      <button>Schedule</button>
+        <h1>
+          Feeling Prepared?
+          <br />
+          Register for{" "}
+          <span className="shufflingText">{olympiadList[index]}</span>
+        </h1>
+        <button>Register</button>
+        <button>Schedule</button>
       </header>
 
       <div className="marquee">
-      <Marquee>
-        <p>Registration For 2021-22 Is Closing. Register Now</p>
-        <br />
+        <Marquee>
+          <p>Registration For 2021-22 Is Closing. Register Now</p>
+          <br />
           <p>
             Springfield Olympiads Will Be Conducting Olympiads Online For the
             Year 2021-22
           </p>
-        <br />
-        <p>Schedule Of Olympiads Has Been Declared</p>
-      </Marquee>
+          <br />
+          <p>Schedule Of Olympiads Has Been Declared</p>
+        </Marquee>
       </div>
 
       <GridCard />
@@ -96,9 +96,17 @@ function App() {
       <Reviews/>
 
       <footer>
-        
+        <div id="contactForm">
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"></input>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email"></input>
+            <label for="msg">Message</label>
+            <input type="text" id="msg" name="msg"></input>
+          </form>
+        </div>
       </footer>
-
     </div>
   );
 }
