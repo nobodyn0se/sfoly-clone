@@ -96,16 +96,18 @@ function App() {
       <Reviews />
 
       <footer>
-        <div id="contactForm">
-          <form>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name"></input>
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email"></input>
-            <label for="msg">Message</label>
-            <input type="text" id="msg" name="msg"></input>
-          </form>
-        </div>
+        <form id="contactForm">
+          
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name"></input>
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email"></input>
+
+          <label for="msg">Message</label>
+          <input type="text" id="msg" name="msg"></input>
+
+        </form>
       </footer>
     </div>
   );

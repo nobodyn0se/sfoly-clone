@@ -107,6 +107,12 @@ header h1 {
   backdrop-filter: blur(7px);
 }
 
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
 @supports not ((-webkit-backdrop-filter: blur(7px)) or (backdrop-filter: blur(7px))) {
   #about, header button {
     background-color: rgba(255, 255, 255, 0.8);
