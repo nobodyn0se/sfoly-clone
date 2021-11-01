@@ -76,6 +76,7 @@ function App() {
             working at your convenience. Top coordinators will be given to work
             as full-time employees with good pay.
           </p>
+          <button>Register Now!</button>
         </div>
       </div>
 
