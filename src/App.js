@@ -40,7 +40,10 @@ function App() {
       <Marquee>
         <p>Registration For 2021-22 Is Closing. Register Now</p>
         <br />
-        <p>Springfield Olympiads Will Be Conducting Olympiads Online For the Year 2021-22</p>
+          <p>
+            Springfield Olympiads Will Be Conducting Olympiads Online For the
+            Year 2021-22
+          </p>
         <br />
         <p>Schedule Of Olympiads Has Been Declared</p>
       </Marquee>
