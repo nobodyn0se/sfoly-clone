@@ -107,12 +107,12 @@ header h1 {
   backdrop-filter: blur(7px);
 }
 
-#reviews {
-  height: 7rem;
-}
-
 @supports not ((-webkit-backdrop-filter: blur(7px)) or (backdrop-filter: blur(7px))) {
-  #about {
+  #about, header button {
     background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  header button:hover {
+    background-color: grey;
   }
 }
