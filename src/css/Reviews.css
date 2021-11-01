@@ -6,6 +6,11 @@
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(7px);
   }
+  
+  #reviews h3 {
+    padding: 2rem;
+    text-align: center;
+  }
 
   .reviewsContainer {
     display: grid;
@@ -40,3 +45,14 @@
     backdrop-filter: blur(7px);
     color: #000;
   }
+
+  #reviews h4 {
+      margin: 1rem 0;
+  }
+
+  #reviews_card h6 {
+      font-weight: 600;
+      margin: 0 0;
+      text-align: center;
+  }
+  
