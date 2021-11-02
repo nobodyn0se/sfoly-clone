@@ -126,6 +126,7 @@ header h1 {
 }
 
 .submit-button {
+  margin-top: 2rem;
   background-color: palegreen;
 }
 
