@@ -107,7 +107,7 @@ function App() {
 
       <footer>
         <div className="footer-container">
-        <div className="social-links">
+          <div className="social-links">
             <FaFacebook className="social-icon" />
             <FaLinkedin className="social-icon" />
             <FaInstagram className="social-icon" />
@@ -131,7 +131,13 @@ function App() {
 
             <button className="submit-button">Submit!</button>
           </form>
+        </div>
 
+        <div id="creator">
+          <h4>
+            Page created as an assignment. Source code hosted{" "}
+            <a href="https://github.com/nobodyn0se/sfoly-clone">here</a>
+          </h4>
         </div>
       </footer>
     </div>
