@@ -102,14 +102,16 @@ function App() {
       <footer>
         <form id="contactForm">
           
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name"></input>
+          <label htmlFor="name">Name</label>
+          <input type="text" id="name" name="name"></input><br/>
 
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email"></input>
+          <label htmlFor="email">Email</label>
+          <input type="text" id="email" name="email"></input><br/>
 
-          <label for="msg">Message</label>
+          <label htmlFor="msg">Message</label>
           <input type="text" id="msg" name="msg"></input>
+
+          <button className="submit-button">Submit!</button>
 
         </form>
       </footer>

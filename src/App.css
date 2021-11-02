@@ -108,9 +108,24 @@ header h1 {
 }
 
 #contactForm {
+  box-sizing: border-box;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   width: 40%;
+}
+
+#contactForm label, input {
+  margin-bottom: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.submit-button {
+  background-color: palegreen;
 }
 
 @supports not ((-webkit-backdrop-filter: blur(7px)) or (backdrop-filter: blur(7px))) {
