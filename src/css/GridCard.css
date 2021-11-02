@@ -31,3 +31,9 @@ h4 {
       background-color: rgba(255, 255, 255, .8);
     }
   }
+
+  @media screen and (max-width: 732px) {
+    .grid-container {
+      grid-template-columns: repeat(1, auto);
+    }
+  }
