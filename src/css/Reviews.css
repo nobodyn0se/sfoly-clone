@@ -14,11 +14,11 @@
 
   .reviews-container {
     display: grid;
-
     grid-template-rows: repeat(2, 18rem);
     row-gap: 2rem;
     column-gap: 2rem;
     grid-auto-flow: column;
+    padding: 0 1rem;
     overflow-x: auto;
   }
 
