@@ -41,3 +41,9 @@ li {
     background-color: palegreen;
     color: black;
 }
+
+@media screen and (max-width: 732px) {
+    .nav-container ul {
+        display: none;
+    }
+}
