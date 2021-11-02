@@ -34,7 +34,7 @@
   }
 
   #reviews_card {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     height: 17rem;
     width: 18rem;
     padding: 0 1rem 1rem 1rem;
@@ -42,8 +42,13 @@
     box-sizing: border-box;
     border-radius: 2rem;
     z-index: 100;
+    box-shadow: 10px 10px 8px rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(7px);
     color: #000;
+  }
+
+  #reviews h3 {
+      color: palegreen;
   }
 
   #reviews h4 {
