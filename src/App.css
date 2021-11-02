@@ -164,6 +164,11 @@ header h1 {
   }
 }
 
+@media screen and (max-width: 732px) {
+  .App {
+    overflow-x: hidden;
+  }
+
   header {
     flex-direction: column;
   }
