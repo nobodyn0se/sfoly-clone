@@ -177,3 +177,8 @@ header h1 {
   header button {
     margin-bottom: 2rem;
   }
+
+  .flex-institute {
+    flex-direction: column;
+  }
+  
