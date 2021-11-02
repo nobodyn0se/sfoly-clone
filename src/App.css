@@ -187,3 +187,8 @@ header h1 {
     flex-direction: column;
   }
   
+  #text {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
