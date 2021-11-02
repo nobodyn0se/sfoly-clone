@@ -1,10 +1,14 @@
-import "./App.css";
-import "./components/NavBar";
-import NavBar from "./components/NavBar";
-import Marquee from "react-fast-marquee";
-import Reviews from "./components/Reviews";
 import { useState, useEffect } from "react";
+
+import Marquee from "react-fast-marquee";
+
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+
 import GridCard from "./components/GridCard";
+import NavBar from "./components/NavBar";
+import Reviews from "./components/Reviews";
+
+import "./App.css";
 
 function App() {
   const olympiadList = [
