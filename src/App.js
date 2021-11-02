@@ -130,7 +130,7 @@ function App() {
             <br />
 
             <label htmlFor="msg">Message</label>
-            <input type="text" id="msg" name="msg"></input>
+            <textarea id="msg" name="msg"></textarea>
 
             <button className="submit-button">Submit!</button>
           </form>
