@@ -122,10 +122,17 @@ header h1 {
 .footer-container {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 2rem;
 }
 
 .submit-button {
   background-color: palegreen;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 @supports not ((-webkit-backdrop-filter: blur(7px)) or (backdrop-filter: blur(7px))) {
