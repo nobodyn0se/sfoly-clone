@@ -107,6 +107,19 @@ function App() {
 
       <footer>
         <div className="footer-container">
+
+        <div className="social-links">
+            <FaFacebook className="social-icon"/>
+            <FaLinkedin className="social-icon"/>
+            <FaInstagram className="social-icon"/>
+            <div id="social-grid-text">
+              Connect with us on social media!
+            </div>
+            <FaWhatsapp className="social-icon"/>
+            <MdEmail className="social-icon"/>
+            <MdMessage className="social-icon"/>
+          </div>
+
           <form id="contact-form">
             <label htmlFor="name">Name</label>
             <input type="text" id="name" name="name"></input>
@@ -122,15 +135,6 @@ function App() {
             <button className="submit-button">Submit!</button>
           </form>
 
-          <div className="social-links">
-            <FaFacebook />
-            <FaLinkedin />
-            <FaInstagram />
-            <FaWhatsapp />
-            <MdEmail />
-            <MdMessage />
-          </div>
-          
         </div>
       </footer>
     </div>
