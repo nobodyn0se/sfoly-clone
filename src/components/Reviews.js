@@ -4,8 +4,8 @@ const Reviews = () => {
   return (
     <section id="reviews">
       <h3>Reviews</h3>
-      <div className="reviewsContainer">
-        <div id="reviews_card">
+      <div className="reviews-container">
+        <div id="reviews-card">
           <h4>M Thakur</h4>
           <h6>Student</h6>
           <p>
@@ -14,7 +14,7 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>R Das</h4>
           <h6>Student</h6>
           <p>
@@ -23,7 +23,7 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>S Pandey</h4>
           <h6>Student</h6>
           <p>
@@ -33,7 +33,7 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>I Roy</h4>
           <h6>Student</h6>
           <p>
@@ -42,7 +42,7 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>D. A.</h4>
           <h6>Student</h6>
           <p>
@@ -51,13 +51,13 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>T Rastogi</h4>
           <h6>Student</h6>
           <p>All my queries were solved within no time</p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>R Nair</h4>
           <h6>Student</h6>
           <p>
@@ -67,7 +67,7 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>V Dixit</h4>
           <h6>Student</h6>
           <p>
@@ -76,13 +76,13 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>T Shaw</h4>
           <h6>Student</h6>
           <p>The difficulty level of the questions were good.</p>
         </div>
 
-        <div id="reviews_card">
+        <div id="reviews-card">
           <h4>V Dubey</h4>
           <h6>Student</h6>
           <p>You gave a target which ultimately help in other exams too.</p>

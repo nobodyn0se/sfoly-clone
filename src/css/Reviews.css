@@ -12,7 +12,7 @@
     text-align: center;
   }
 
-  .reviewsContainer {
+  .reviews-container {
     display: grid;
 
     grid-template-rows: repeat(2, 18rem);
@@ -22,18 +22,7 @@
     overflow-x: auto;
   }
 
-  .reviewsGrid {
-    display: grid;  
-    justify-content: center;
-    overflow-x: scroll;
-    grid-template-columns: repeat(2, 20rem);
-    grid-template-rows: repeat(2, 18rem);
-    row-gap: 2rem;
-    column-gap: 2rem;
-    color: black;
-  }
-
-  #reviews_card {
+  #reviews-card {
     background-color: rgba(255, 255, 255, 0.7);
     height: 17rem;
     width: 18rem;
@@ -55,7 +44,7 @@
       margin: 1rem 0;
   }
 
-  #reviews_card h6 {
+  #reviews-card h6 {
       font-weight: 600;
       margin: 0 0;
       text-align: center;

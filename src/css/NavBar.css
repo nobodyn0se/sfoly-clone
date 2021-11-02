@@ -5,7 +5,7 @@ nav {
     backdrop-filter: blur(7px);
 }
 
-.NavContainer {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,13 +31,13 @@ li {
     color: white;
 }
 
-.navLogin {
+.nav-login {
     padding: 0.5rem;
     border: palegreen 2px solid;
     border-radius: 0.5rem;
 }
 
-.navLogin:hover {
+.nav-login:hover {
     background-color: palegreen;
     color: black;
 }

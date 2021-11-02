@@ -2,12 +2,12 @@ h4 {
     text-align: center;
 }
 
-.gridContainer p {
+.grid-container p {
     padding: 0 1rem;
     font-weight: 400;
 }
 
-.gridContainer {
+.grid-container {
     display: grid;
     padding: 10rem 1rem;
     justify-content: center;
@@ -17,7 +17,7 @@ h4 {
     color: black;
   }
   
-  .grid_card {
+  .grid-card {
     background-color: rgba(255, 255, 255, 0.5);
     height: 17rem;
     width: 18rem;
@@ -27,7 +27,7 @@ h4 {
   }
   
   @supports not ((-webkit-backdrop-filter: blur(7px)) or (backdrop-filter: blur(7px))) {
-    .grid_card {
+    .grid-card {
       background-color: rgba(255, 255, 255, .8);
     }
   }

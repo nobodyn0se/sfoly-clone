@@ -2,8 +2,13 @@ import { useState, useEffect } from "react";
 
 import Marquee from "react-fast-marquee";
 
-import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import { MdMessage, MdEmail } from 'react-icons/md';
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { MdMessage, MdEmail } from "react-icons/md";
 
 import GridCard from "./components/GridCard";
 import NavBar from "./components/NavBar";
@@ -36,7 +41,7 @@ function App() {
           Feeling Prepared?
           <br />
           Register for{" "}
-          <span className="shufflingText">{olympiadList[index]}</span>
+          <span className="shuffling-text">{olympiadList[index]}</span>
         </h1>
         <button>Register</button>
         <button>Schedule</button>
@@ -57,10 +62,10 @@ function App() {
 
       <GridCard />
 
-      <div className="flexInstitute">
+      <div className="flex-institute">
         <div id="text">
           <h3>
-            Register as an <span id="spanColor">Institute</span>
+            Register as an <span id="span-color">Institute</span>
           </h3>
           <p>
             Want to give a headstart to the students of your institute by
@@ -72,7 +77,7 @@ function App() {
 
         <div id="text">
           <h3>
-            Register as a <span id="spanColor">Coordinator</span>
+            Register as a <span id="span-color">Coordinator</span>
           </h3>
           <p>
             Grab the opportunity and get a chance to work in the education
@@ -102,31 +107,31 @@ function App() {
 
       <footer>
         <div className="footer-container">
-        <form id="contactForm">
+          <form id="contact-form">
+            <label htmlFor="name">Name</label>
+            <input type="text" id="name" name="name"></input>
+            <br />
 
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name"></input><br/>
+            <label htmlFor="email">Email</label>
+            <input type="text" id="email" name="email"></input>
+            <br />
 
-          <label htmlFor="email">Email</label>
-          <input type="text" id="email" name="email"></input><br/>
+            <label htmlFor="msg">Message</label>
+            <input type="text" id="msg" name="msg"></input>
 
-          <label htmlFor="msg">Message</label>
-          <input type="text" id="msg" name="msg"></input>
+            <button className="submit-button">Submit!</button>
+          </form>
 
-          <button className="submit-button">Submit!</button>
-
-        </form>
-
-        <div className="social-links">
-            <FaFacebook/>
-            <FaLinkedin/>
-            <FaInstagram/>
-            <FaWhatsapp/>
-            <MdEmail/>
-            <MdMessage/>
+          <div className="social-links">
+            <FaFacebook />
+            <FaLinkedin />
+            <FaInstagram />
+            <FaWhatsapp />
+            <MdEmail />
+            <MdMessage />
+          </div>
+          
         </div>
-        </div>
-
       </footer>
     </div>
   );

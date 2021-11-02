@@ -13,7 +13,7 @@ button:hover {
   cursor: pointer;
 }
 
-#spanColor {
+#span-color {
   color: palegreen;
 }
 
@@ -74,20 +74,20 @@ header h1 {
   padding: 0 5rem;
 }
 
-.shufflingText {
+.shuffling-text {
   font-weight: 500;
   font-family: sans-serif;
   color: palegreen;
 }
 
-.flexInstitute, .flexCoordinator {
+.flex-institute {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 3rem;
 }
 
-.flexInstitute p, .flexCoordinator p {
+.flex-institute p {
   padding: 0;
 }
 
@@ -107,7 +107,7 @@ header h1 {
   backdrop-filter: blur(7px);
 }
 
-#contactForm {
+#contact-form {
   box-sizing: border-box;
   padding: 20px;
   display: flex;
@@ -115,7 +115,7 @@ header h1 {
   width: 40%;
 }
 
-#contactForm label, input {
+#contact-form label, input {
   margin-bottom: 10px;
 }
 
