@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 
 import Marquee from "react-fast-marquee";
 
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { MdMessage, MdEmail } from 'react-icons/md';
 
 import GridCard from "./components/GridCard";
 import NavBar from "./components/NavBar";
@@ -100,8 +101,9 @@ function App() {
       <Reviews />
 
       <footer>
+        <div className="footer-container">
         <form id="contactForm">
-          
+
           <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name"></input><br/>
 
@@ -114,6 +116,17 @@ function App() {
           <button className="submit-button">Submit!</button>
 
         </form>
+
+        <div className="social-links">
+            <FaFacebook/>
+            <FaLinkedin/>
+            <FaInstagram/>
+            <FaWhatsapp/>
+            <MdEmail/>
+            <MdMessage/>
+        </div>
+        </div>
+
       </footer>
     </div>
   );
